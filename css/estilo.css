@@ -3,3 +3,48 @@
     padding: 0;
     box-sizing: border-box;
 }
+#cabecalho{
+    background-color: aqua;
+    height: 100px;
+    position: relative;
+    padding: 20px;
+
+    /* aninnhamento de seletrores */
+    h1{
+        float: left;
+        background-color: blueviolet;
+        position: relative;
+        top: 30%;
+    }
+    nav{
+        float: right;
+        position: relative;
+        top: 30%;
+        right: 20%;
+        background-color: blueviolet;
+    }
+    
+.link{
+    display: inline;
+    margin-left: 10px;
+    a{
+        text-decoration: none;
+        display: inline-block;
+        padding: 20px;
+        background-color: black;
+
+    }
+}
+}
+button{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+/* #cabecalho > h1{
+    background-color: blue;
+} */
+
+a:hover{
+    background-color: aquamarine;
+}
