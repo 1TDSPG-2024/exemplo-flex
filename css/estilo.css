@@ -3,3 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+#cabecalho{
+    background-color: #000;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    color:#fff;
+}
+.link{
+    display: inline;
+    margin-left: 20px;
+    a{
+        color: #fff;
+        text-decoration: none;
+        display: inline-block;
+        padding: 20px;
+        background-color: #164756;
+        transition: all 0.4s ease;
+        border-radius: 5px;
+
+        &:hover{
+            background-color: #51727c;
+        }
+    }
+
+}
