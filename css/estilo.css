@@ -40,11 +40,27 @@
 
 }
 
+#titulo{
+  text-align: center;
+  margin: 3% 0;
+}
 
+.pets{
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  margin: 0 auto; 
 
+  figure{
+    flex: 1 1 200px;
+    margin: 10px;
+  }
 
-
-
+  img{
+    display: block;
+    max-width: 100%; 
+  }
+}
 
 /* #cabecalho{
   background-color: #130e0e;
