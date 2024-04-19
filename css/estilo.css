@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 #cabecalho{
     background-color: #000;
     height: 100px;
@@ -12,25 +11,44 @@
     align-items: center;
     justify-content: space-between;
 }
-
 h1{
     color:#fff;
 }
 .link{
     display: inline;
     margin-left: 20px;
-    a{
-        color: #fff;
-        text-decoration: none;
-        display: inline-block;
-        padding: 20px;
-        background-color: #164756;
-        transition: all 0.4s ease;
-        border-radius: 5px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    background-color: #164756;
+    transition: all 0.4s ease;
+    border-radius: 5px;
+}
+a:hover{
+    background-color: #51727c;
+}
 
-        &:hover{
-            background-color: #51727c;
-        }
-    }
+#titulo{
+    text-align: center;
+    margin: 3% 0;
+}
 
+.pets{
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+figure{
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+img{
+    display: block;
+    max-width: 100%;
 }
