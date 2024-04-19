@@ -12,13 +12,13 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  /* Aninhamento de seletores */
 
   h1{
     color: #fff;
   }
 
-
+  
+ 
   .link{
     display: inline;
     margin-left: 20px;
@@ -40,7 +40,28 @@
 
 }
 
+#titulo{
+  text-align: center;
+  margin: 3% 0;
+}
 
+.pets{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 80%;
+  
+  figure{
+    flex: 1 1 200px;
+    margin:10px;
+  }
+
+  img{
+    display: block;
+    max-width: 100%;
+  }
+
+}
 
 
 
