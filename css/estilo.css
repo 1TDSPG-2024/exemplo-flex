@@ -1,7 +1,8 @@
+
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 #cabecalho{
@@ -12,78 +13,94 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  /* Aninhamento de seletores */
+
+/* Aninhamento de seletores */
 
   h1{
-    color: #fff;
+      color: #fff;
   }
 
-
   .link{
-    display: inline;
-    margin-left: 20px;
-    a{
-      color: #fff;
-      text-decoration: none;
-      display: inline-block;
-      padding: 20px;
-      border-radius: 5px;
-      background-color: #164756;
-      transition: all 0.4s ease-in-out;
+      display: inline;
+      margin-left: 20px;
+      a{
+          color: #fff;
+          text-decoration: none;
+          display: inline-block;
+          padding: 20px;
+          border-radius: 5px;
+          background-color: #164756;
+          transition: all 0.4s ease-in-out;
 
-      &:hover{
-        background-color: #51727c;
+          &:hover{
+              background-color: #51727c;
+          }
+
       }
-
-    }
   }
 
 }
 
+#titulo{
+text-align: center;
+margin: 3% 0;
+}
 
+.pets{
+display: flex;
+width: 80%;
+flex-wrap: wrap;
+margin: 0 auto; 
 
+figure{
+  flex: 1 1 200px;
+  margin: 10px;
+}
 
-
-
+img{
+  display: block;
+  max-width: 100%; 
+}
+}
 
 /* #cabecalho{
-  background-color: #130e0e;
-  height: 100px;
-  position: relative;
-  padding: 20px;
+background-color: #130e0e;
+height: 100px;
+position: relative;
+padding: 20px;
 
-  Aninhamento de seletores 
-  h1{
+Aninhamento de seletores 
+h1{
+  color: #fff;
+  float: left;
+  position: absolute;
+  top:30%;
+}
+
+nav{
+  float: right;
+  position: absolute;
+  top:25%;
+  right: 5%;
+}
+
+.link{
+  display: inline;
+  margin-left: 20px;
+  a{
     color: #fff;
-    float: left;
-    position: absolute;
-    top:30%;
-  }
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #164756;
+    transition: all 0.4s ease-in-out;
 
-  nav{
-    float: right;
-    position: absolute;
-    top:25%;
-    right: 5%;
-  }
-
-  .link{
-    display: inline;
-    margin-left: 20px;
-    a{
-      color: #fff;
-      text-decoration: none;
-      display: inline-block;
-      padding: 20px;
-      border-radius: 5px;
-      background-color: #164756;
-      transition: all 0.4s ease-in-out;
-
-      &:hover{
-        background-color: #51727c;
-      }
-
+    &:hover{
+      background-color: #51727c;
     }
-    
-  } 
+
+  }
+  
+} 
 } */
